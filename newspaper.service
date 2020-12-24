@@ -1,0 +1,11 @@
+[Unit]
+Description=Retrieve latest papers
+
+[Service]
+Type=oneshot
+# run pre script to make sure internet is available
+ExecStartPre=/bin/sh -c 'until ping -c1 google.com; do sleep 1; done;'
+ExecStart=/home/root/.local/share/pdflets/newspaper.sh
+
+[Install]
+WantedBy=multi-user.target
