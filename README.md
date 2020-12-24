@@ -1,6 +1,8 @@
 # Newspapers for reMarkable Tablet
 
-Inspired by https://www.reddit.com/r/RemarkableTablet/comments/apyal2/has_anyone_tried_to_make_dynamic_pdfs/ and https://github.com/evidlo/remarkable_pdflets.
+> Obviously anything you do with these instructions is **at your own risk**. I haven't bricked my reMarkable yet, but that doesn't mean it can't happen.
+
+Inspired by [a reddit thread about "pdflets"](https://www.reddit.com/r/RemarkableTablet/comments/apyal2/has_anyone_tried_to_make_dynamic_pdfs/) and [an example implementation](https://github.com/evidlo/remarkable_pdflets).
 
 ## Setup
 1. Create dummy PDF documents for each newspaper. This should be a unique identifier along with `.content` and `.metadata` files. Copy these files into `/home/root/.local/share/remarkable/xochitl/` on the reMarkable tablet.
